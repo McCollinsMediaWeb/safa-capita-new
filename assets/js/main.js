@@ -34,9 +34,7 @@ jQuery(document).ready(function ($) {
       jQuery("body").toggleClass("activeform");
       jQuery("body").removeClass("pop3active");
     });
-    jQuery(".AccordionQstion").click(function () {
-      jQuery(this).parent().toggleClass("active")
-    });
+   
     jQuery(".CloseClick, .MenuClick , .menudrop ,.MenuActive1").click(function () {
       jQuery("body").toggleClass("ActivePanel");
     });
@@ -61,7 +59,14 @@ jQuery(document).ready(function ($) {
           autoStart : true,
           axis      : 'x'
         }
-  });
-    
+    });
+
+    jQuery(".Drop1 , .Txt13").click(function () {
+      jQuery(".ValueItem").removeClass("activeAccord");
+      jQuery(this).closest(".ValueItem").addClass("activeAccord");
+    });
+    jQuery(".AccordionQstion").click(function () {
+      jQuery(this).parent().toggleClass("active")
+    });
     
 });
