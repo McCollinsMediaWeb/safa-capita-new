@@ -798,8 +798,8 @@ main {
 .RoundBox1 {
     background-color: #3F8BBC;
     border-radius: 50%;
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -807,8 +807,8 @@ main {
 
 .ServiceImage {
     background-size: 100% 100%;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
 }
 
 .ServiceImage.ServiceImage1 {
@@ -839,13 +839,13 @@ main {
 
 .ServiceImage.ServiceImage6 {
     background-image: url(../images/serviceimages/service6.png);
-    height: 22px;
+    height: 19px;
 }
 
 .DropDownClick {
     background-image: url(../images/dropdown.png);
-    width: 30px;
-    height: 15px;
+    width: 25px;
+    height: 13px;
     background-size: 100% 100%;
     display: block;
 
@@ -854,8 +854,8 @@ main {
 .Drop1 {
     background-color: #F1F5F7;
     border-radius: 50%;
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1383,4 +1383,15 @@ margin-bottom: 20px;
   .RowStCnt1Box{
     border-left: 2px solid #3F8BBC;
     padding-left: 25px;
+  }
+  .SrTxt1 {
+    font-weight: 700;
+font-size: 30px;
+line-height: 1;
+  }
+  .SrTxt2{
+    line-height: 1.5;
+  }
+  .ServiceHd1{
+    margin-bottom: 40px;
   }
