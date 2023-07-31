@@ -1395,3 +1395,94 @@ line-height: 1;
   .ServiceHd1{
     margin-bottom: 40px;
   }
+  .MtTxt1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.5;
+    position: relative;
+    margin-top: 25px;
+  }
+  .MeetTheTeamItemFlex{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+  }
+  .MeetTheTeamItemFlexLeft{
+    flex: 0 0 30%;
+    max-width: 30%;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 25px;
+    position: relative;
+  }
+  .MeetTheTeamItemFlexMiddle{
+    width: auto;
+    flex: auto;
+    padding: 25px;
+    line-height: 1;
+  }
+  .MeetTheTeamItemFlexRight{
+    flex: 0 0 150px;
+    max-width: 150px;
+    padding: 25px;
+    line-height: 1;
+    justify-content: end;
+    text-align: right;
+    display: flex;
+  }
+  .MeetTheTeamIcon{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    background-color: #3F8BBC;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .MeetTheTeamIcon::before{
+    content: "+";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -13px;
+    margin-left: -8px;
+    display: block;
+    pointer-events: none;
+  }
+  .TeamDesc{
+    padding: 25px;
+    display: none;
+  }
+  .TeamDesc div{
+    margin-bottom: 15px;
+  }
+  .TeamDesc div:last-child{
+    margin-bottom: 0;
+  }
+  .MeetTheTeamItem.active .MeetTheTeamItemFlexLeft::after{
+    content: "";
+    background-color: #3F8BBC;
+    width: 50%;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 25px;
+    
+  }
+  .MeetTheTeamItem.active .TeamDesc{
+    display: block;
+  }
+  .MeetTheTeamItem.active .MeetTheTeamIcon::before{
+    content: "-";
+    margin-left: -5px;
+  }

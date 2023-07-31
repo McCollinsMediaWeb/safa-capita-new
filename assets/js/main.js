@@ -68,5 +68,7 @@ jQuery(document).ready(function ($) {
     jQuery(".AccordionQstion").click(function () {
       jQuery(this).parent().toggleClass("active")
     });
-    
+    jQuery(".MeetTheTeamIcon").click(function () {
+      jQuery(this).closest(".MeetTheTeamItem ").toggleClass("active");
+    });
 });
