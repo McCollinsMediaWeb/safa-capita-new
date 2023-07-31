@@ -1486,3 +1486,91 @@ line-height: 1;
     content: "-";
     margin-left: -5px;
   }
+  .BlogLink1{
+    color: #000 !important;
+  }
+  .LatestBlog{
+    margin-top: 25px;
+  }
+  .blogAuthor1{
+position: relative;
+  }
+  .blogDate1{
+position: relative;
+  }
+  .blogAuthor1::before {
+    content: "";
+    width: 12px;
+    height: 14px;
+    background-image: url(../images/owner-black.png);
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .blogDate1::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-image: url(../images/time-black.png);
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .blogWrap .row1 .col1:first-child {
+    border-right: 1px solid #000;
+  }
+.LatestTxt1{
+    font-weight: 700;
+font-size: 22px;
+line-height: 1.5;
+margin-bottom: 15px;
+}
+.LatestTxt2{
+    line-height: 1.8;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.LatestTxt3{
+    color: #3F8BBC;
+    font-weight: 500;
+}
+.latestBlogThumb{
+    height: 410px;
+    object-fit: cover;
+}
+.BlogListItemLink{
+    display: block;
+    color: #656565 !important;
+}
+.BlogListing{
+    margin-top: 25px;
+}
+.BitLT1{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #656565;
+    font-weight: 500;
+}
+.BitLT2 {
+    font-size: 20px;
+    color: #A7DCFF;
+    padding-left: 20px;
+    border-left: 3px solid #A7DCFF;
+    font-weight: 600;
+    margin: 10px 0px;
+  }
+  .BitLT3{
+    font-size: 18px;
+    color: #656565;
+    position: relative;
+    font-weight: 500;
+  }
+  .BitLT3::after{
+    content: ">>";
+    margin-left: 5px;
+    display: inline-block;
+  }
+  .BlogListing .col-md-4{
+    margin-bottom: 30px;
+  }
