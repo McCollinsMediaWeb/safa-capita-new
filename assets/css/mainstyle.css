@@ -1316,3 +1316,71 @@ main {
     font-size: 18px;
     margin-top: 15px;
 }
+.BulletTp1{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.BulletTp1 li{
+    position: relative;
+    padding: 5px 5px 5px 40px;
+}
+.BulletTp1 li::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    line-height: 1;
+    background-color: #3F8BBC;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -5px;
+
+}
+.GrdStT1{
+    font-weight: 700;
+font-size: 30px;
+line-height: 1;
+position: relative;
+padding-left: 100px;
+margin-bottom: 20px;
+}
+.GrdStT1::after {
+    content: "";
+    width: 60px;
+    height: 4px;
+    background-color: #3F8BBC;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -2px;
+  }
+  .rowSt1{
+    margin-top: 25px;
+  }
+  .RowStCnt1{
+    padding: 25px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: -50px;
+    position: relative;
+  }
+  .RowSt1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  .RowSt2{
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  .RowSt3 {
+    color: #3F8BBC !important;
+  }
+  .rowSt1 .col-md-6.mb-30{
+    margin-bottom: 40px;
+  }
+  .RowStCnt1Box{
+    border-left: 2px solid #3F8BBC;
+    padding-left: 25px;
+  }
