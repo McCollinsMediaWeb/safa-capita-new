@@ -770,7 +770,7 @@ main {
     display: flex;
     background-color: #fff;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .valueItemFlexLeft {
@@ -1298,34 +1298,41 @@ main {
     color: #fff;
     margin-bottom: 40px;
 }
-.Dlink1{
+
+.Dlink1 {
     color: #fff !important;
 }
-.Dl1{
+
+.Dl1 {
     margin: 15px 0px 15px 0px;
     font-size: 18px;
 }
-.Dl2{
+
+.Dl2 {
     font-size: 20px;
     color: #A7DCFF;
     padding-left: 20px;
     border-left: 3px solid #A7DCFF;
     font-weight: 600;
 }
-.Dl3{
+
+.Dl3 {
     font-size: 18px;
     margin-top: 15px;
 }
-.BulletTp1{
+
+.BulletTp1 {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-.BulletTp1 li{
+
+.BulletTp1 li {
     position: relative;
     padding: 5px 5px 5px 40px;
 }
-.BulletTp1 li::before{
+
+.BulletTp1 li::before {
     content: "";
     width: 10px;
     height: 10px;
@@ -1337,14 +1344,16 @@ main {
     margin-top: -5px;
 
 }
-.GrdStT1{
+
+.GrdStT1 {
     font-weight: 700;
-font-size: 30px;
-line-height: 1;
-position: relative;
-padding-left: 100px;
-margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 1;
+    position: relative;
+    padding-left: 100px;
+    margin-bottom: 20px;
 }
+
 .GrdStT1::after {
     content: "";
     width: 60px;
@@ -1354,61 +1363,74 @@ margin-bottom: 20px;
     left: 0;
     top: 50%;
     margin-top: -2px;
-  }
-  .rowSt1{
+}
+
+.rowSt1 {
     margin-top: 25px;
-  }
-  .RowStCnt1{
+}
+
+.RowStCnt1 {
     padding: 25px;
     width: 90%;
     margin-left: 5%;
     margin-top: -50px;
     position: relative;
-  }
-  .RowSt1 {
+}
+
+.RowSt1 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
-  }
-  .RowSt2{
+}
+
+.RowSt2 {
     line-height: 1.5;
     margin-bottom: 15px;
-  }
-  .RowSt3 {
+}
+
+.RowSt3 {
     color: #3F8BBC !important;
-  }
-  .rowSt1 .col-md-6.mb-30{
+}
+
+.rowSt1 .col-md-6.mb-30 {
     margin-bottom: 40px;
-  }
-  .RowStCnt1Box{
+}
+
+.RowStCnt1Box {
     border-left: 2px solid #3F8BBC;
     padding-left: 25px;
-  }
-  .SrTxt1 {
+}
+
+.SrTxt1 {
     font-weight: 700;
-font-size: 30px;
-line-height: 1;
-  }
-  .SrTxt2{
+    font-size: 30px;
+    line-height: 1;
+}
+
+.SrTxt2 {
     line-height: 1.5;
-  }
-  .ServiceHd1{
+}
+
+.ServiceHd1 {
     margin-bottom: 40px;
-  }
-  .MtTxt1{
+}
+
+.MtTxt1 {
     text-align: center;
     font-weight: 700;
     font-size: 30px;
     line-height: 1.5;
     position: relative;
     margin-top: 25px;
-  }
-  .MeetTheTeamItemFlex{
+}
+
+.MeetTheTeamItemFlex {
     display: flex;
     margin-top: 20px;
     align-items: center;
-  }
-  .MeetTheTeamItemFlexLeft{
+}
+
+.MeetTheTeamItemFlexLeft {
     flex: 0 0 30%;
     max-width: 30%;
     padding: 16px;
@@ -1417,14 +1439,16 @@ line-height: 1;
     line-height: 1;
     padding: 25px;
     position: relative;
-  }
-  .MeetTheTeamItemFlexMiddle{
+}
+
+.MeetTheTeamItemFlexMiddle {
     width: auto;
     flex: auto;
     padding: 25px;
     line-height: 1;
-  }
-  .MeetTheTeamItemFlexRight{
+}
+
+.MeetTheTeamItemFlexRight {
     flex: 0 0 150px;
     max-width: 150px;
     padding: 25px;
@@ -1432,8 +1456,9 @@ line-height: 1;
     justify-content: end;
     text-align: right;
     display: flex;
-  }
-  .MeetTheTeamIcon{
+}
+
+.MeetTheTeamIcon {
     width: 35px;
     height: 35px;
     position: relative;
@@ -1448,8 +1473,9 @@ line-height: 1;
     text-align: center;
     border-radius: 50%;
     cursor: pointer;
-  }
-  .MeetTheTeamIcon::before{
+}
+
+.MeetTheTeamIcon::before {
     content: "+";
     position: absolute;
     left: 50%;
@@ -1458,18 +1484,22 @@ line-height: 1;
     margin-left: -8px;
     display: block;
     pointer-events: none;
-  }
-  .TeamDesc{
+}
+
+.TeamDesc {
     padding: 25px;
     display: none;
-  }
-  .TeamDesc div{
+}
+
+.TeamDesc div {
     margin-bottom: 15px;
-  }
-  .TeamDesc div:last-child{
+}
+
+.TeamDesc div:last-child {
     margin-bottom: 0;
-  }
-  .MeetTheTeamItem.active .MeetTheTeamItemFlexLeft::after{
+}
+
+.MeetTheTeamItem.active .MeetTheTeamItemFlexLeft::after {
     content: "";
     background-color: #3F8BBC;
     width: 50%;
@@ -1477,28 +1507,35 @@ line-height: 1;
     position: absolute;
     bottom: 0;
     left: 25px;
-    
-  }
-  .MeetTheTeamItem.active .TeamDesc{
+
+}
+
+.MeetTheTeamItem.active .TeamDesc {
     display: block;
-  }
-  .MeetTheTeamItem.active .MeetTheTeamIcon::before{
+}
+
+.MeetTheTeamItem.active .MeetTheTeamIcon::before {
     content: "-";
     margin-left: -5px;
-  }
-  .BlogLink1{
+}
+
+.BlogLink1 {
     color: #000 !important;
-  }
-  .LatestBlog{
+}
+
+.LatestBlog {
     margin-top: 25px;
-  }
-  .blogAuthor1{
-position: relative;
-  }
-  .blogDate1{
-position: relative;
-  }
-  .blogAuthor1::before {
+}
+
+.blogAuthor1 {
+    position: relative;
+}
+
+.blogDate1 {
+    position: relative;
+}
+
+.blogAuthor1::before {
     content: "";
     width: 12px;
     height: 14px;
@@ -1506,8 +1543,9 @@ position: relative;
     background-size: 100% 100%;
     display: inline-block;
     margin-right: 10px;
-  }
-  .blogDate1::before {
+}
+
+.blogDate1::before {
     content: "";
     width: 12px;
     height: 12px;
@@ -1515,42 +1553,49 @@ position: relative;
     background-size: 100% 100%;
     display: inline-block;
     margin-right: 10px;
-  }
-  .blogWrap .row1 .col1:first-child {
-    border-right: 1px solid #000;
-  }
-.LatestTxt1{
-    font-weight: 700;
-font-size: 22px;
-line-height: 1.5;
-margin-bottom: 15px;
 }
-.LatestTxt2{
+
+.blogWrap .row1 .col1:first-child {
+    border-right: 1px solid #000;
+}
+
+.LatestTxt1 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.LatestTxt2 {
     line-height: 1.8;
     margin-bottom: 25px;
     margin-top: 25px;
     font-size: 18px;
 }
-.LatestTxt3{
+
+.LatestTxt3 {
     color: #3F8BBC;
     font-weight: 500;
     font-size: 18px;
 }
 
-.BlogListItemLink{
+.BlogListItemLink {
     display: block;
     color: #656565 !important;
 }
-.BlogListing{
+
+.BlogListing {
     margin-top: 25px;
 }
-.BitLT1{
+
+.BitLT1 {
     font-size: 18px;
     margin-top: 10px;
     margin-bottom: 10px;
     color: #656565;
     font-weight: 500;
 }
+
 .BitLT2 {
     font-size: 20px;
     color: #A7DCFF;
@@ -1558,47 +1603,56 @@ margin-bottom: 15px;
     border-left: 3px solid #A7DCFF;
     font-weight: 600;
     margin: 10px 0px;
-  }
-  .BitLT3{
+}
+
+.BitLT3 {
     font-size: 18px;
     color: #656565;
     position: relative;
     font-weight: 500;
-  }
-  .BitLT3::after{
+}
+
+.BitLT3::after {
     content: ">>";
     margin-left: 5px;
     display: inline-block;
-  }
-  .BlogListing .col-md-4{
+}
+
+.BlogListing .col-md-4 {
     margin-bottom: 30px;
-  }
-  .spcBox2 .Txt15{
+}
+
+.spcBox2 .Txt15 {
     max-width: 100%;
-  }
-  .SpBox1{
+}
+
+.SpBox1 {
     margin-top: 30px;
-  }
-  .SpBox1 .RowStCnt1 {
+}
+
+.SpBox1 .RowStCnt1 {
     padding: 25px;
     width: 120%;
     margin-left: -20%;
     margin-top: 20%;
     position: relative;
-  }
-  .OverValuesContent{
+}
+
+.OverValuesContent {
     border-left: 3px solid #e4e4e4;
     padding-left: 50px;
-  }
-  .OverT1{
-font-weight: 700;
-font-size: 30px;
-line-height: 1.5;
-position: relative;
-margin-bottom: 25px;
-position: relative;
-  }
-  .OverT1::after{
+}
+
+.OverT1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.5;
+    position: relative;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.OverT1::after {
     content: "";
     width: 3px;
     height: 100%;
@@ -1606,27 +1660,502 @@ position: relative;
     top: 0;
     left: -52px;
     background-color: #3F8BBC;
-  }
-  .OverItemBox{
+}
+
+.OverItemBox {
     margin-bottom: 20px;
     position: relative;
-  }
-  .OverItemBox::after{
+}
+
+.OverItemBox::after {
     content: "";
     width: 10px;
     height: 10px;
     background-color: #3F8BBC;
     position: absolute;
     top: 7px;
-left: -25px;
+    left: -25px;
     background-color: #3F8BBC;
     display: inline-block;
-  }
-  .OverItemBoxT1{
+}
+
+.OverItemBoxT1 {
     font-weight: 600;
     font-size: 19px;
     margin-bottom: 10px;
-  }
-  .OverItemBoxT2{
+}
+
+.OverItemBoxT2 {
     font-size: 17px;
-  }
+}
+
+.halo-sticky-toolbar-mobile {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 8;
+    box-shadow: 0 0 9px #0000001f;
+    transition: transform .6s;
+    background: #fff;
+    border: 1px solid #fff;
+    overflow: hidden;
+}
+
+.mobile-only {
+    display: none;
+}
+
+.bottom-bar {
+    padding: 3px 15px;
+    min-height: 60px;
+}
+
+.bottom-bar--list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
+}
+
+.bottom-bar--list li>a {
+    padding: 7px 2px;
+    display: block;
+    pointer-events: auto;
+    text-align: center;
+    color: #212121;
+}
+
+.bottom-bar--list .icon img {
+    max-width: 25px;
+}
+
+.bottom-bar--list .icon+.text {
+    margin-top: 6px;
+    line-height: 1;
+    font-size: 11px;
+}
+.Mobile-content{
+    display: none;
+}
+@media only screen and (max-width: 900px) {
+    .HdRightFlex ul {
+        display: none;
+    }
+
+    header {
+        padding: 5px 0px;
+    }
+
+    .mobile-only {
+        display: block;
+    }
+
+    .Txt1 {
+        font-size: 25px;
+    }
+
+    .Txt2 {
+        font-size: 16px;
+        padding: 0px 15px;
+    }
+
+    .Txt3 {
+        padding: 7px 15px;
+        font-size: 16px;
+    }
+
+    .Txt3::after {
+        width: 15px;
+        height: 15px;
+    }
+
+    .MdT2,
+    .AddressPort {
+        display: none;
+    }
+
+    .LessWrokTogetherBox {
+        padding: 20px;
+        background-color: #000;
+    }
+
+    .LessWrokTogether {
+        top: auto;
+        bottom: 150%;
+        background-color: #000;
+        z-index: 99;
+    }
+
+    .contactusActive .LessWrokTogether {
+        top: auto;
+        bottom: 0;
+    }
+
+    .MdT1 {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .MdT1 .CloseContact {
+        width: 30px;
+        height: 30px;
+    }
+
+    .formElement {
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+    .pd-common {
+        padding: 25px 0px;
+    }
+
+    .Txt4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    .Txt5 {
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+
+    .VideoPlay {
+        width: 50px;
+        height: 50px;
+    }
+
+    .Txt6 {
+        padding: 3px 20px;
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .Txt7 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1;
+        position: relative;
+        padding-left: 0;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        text-align: center;
+        position: relative;
+    }
+
+    .Txt7::after {
+        content: "";
+        width: 140px;
+        height: 3px;
+        background-color: #3F8BBC;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin-left: -70px;
+        top: auto;
+    }
+
+    .ourValues {
+        text-align: center;
+    }
+
+    .Txt9 {
+        padding: 10px;
+    }
+
+    .hmSpImg {
+        margin-top: 0;
+    }
+
+    .valueItemFlex {
+        margin-bottom: 15px;
+        flex-wrap: wrap;
+    }
+
+    .valueItemFlexLeft {
+        padding: 15px;
+        flex: 0 0 75px;
+        max-width: 75px;
+    }
+
+    .RoundBox1 {
+        height: 45px;
+        width: 45px;
+    }
+
+    .ServiceImage {
+        width: 20px;
+        height: 20px;
+    }
+
+    .ServiceImage.ServiceImage2 {
+        width: 20px;
+        height: 15px;
+    }
+
+    .ServiceImage.ServiceImage3 {
+        width: 20px;
+        height: 20px;
+    }
+    .ServiceImage.ServiceImage4 {
+        width: 22px;
+        height: 18px;
+      }
+
+    .valueItemFlexMiddle {
+        padding: 15px;
+        text-align: left;
+        flex: auto;
+        max-width: auto;
+    }
+
+    .Txt11 {
+        font-size: 16px;
+        font-weight: 600;
+      }
+      .valueItemFlexRight {
+        padding: 15px;
+        flex: 0 0 75px;
+        max-width: 75px;
+      }
+      .Drop1{
+        width: 45px;
+        height: 45px;
+      }
+      .DropDownClick {
+        width: 22px;
+        height: 11px;
+      }
+      .activeAccord .Mobile-content {
+        display: block;
+        padding: 15px;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-top: 0;
+      }
+      .activeAccord .accordImage, .activeAccord .Txt12, .activeAccord .Txt13 {
+        display: none !important;
+      }
+      .activeAccord .Mobile-content .accordImage, 
+      .activeAccord .Mobile-content .Txt12, 
+      .activeAccord .Mobile-content .Txt13 {
+        display: block !important;
+      }
+      .activeAccord .Drop1 {
+        display: flex !important;
+        transform: rotate(180deg);
+      }
+      .activeAccord .valueItemFlexRight {
+        padding: 15px;
+      }
+      .Txt12 {
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+      .Txt13{
+        margin-bottom: 10px;
+      }
+      .Txt14{
+        font-size: 20px;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+      }
+      br{
+        display: none;
+      }
+      .Txt14::after{
+height: 3px;
+      }
+      .Txt15{
+        line-height: 1.5;
+      }
+      .FinacialPlannerBoxImage {
+        margin-bottom: 20px;
+        margin: 0;
+        padding: 0px 15px;
+      }
+      .Txt16 {
+        font-size: 20px;
+        line-height: 1.5;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+      }
+      .spcSec1 .row .col-md-3{
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-bottom: 15px;
+      }
+      .Txt17{
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+      .WHO1Box{
+        height: 100px;
+width: 100px;
+      }
+      .WHO1Img {
+        width: 50px;
+        height: 50px;
+      }
+      .WHO1Img.t2 {
+        width: 53px;
+      }
+      .WHO1Img.t3 {
+        width: 45px;
+      }
+      .WHO1Img.t4 {
+        width: 52px;
+      }
+      .WHO1T1 {
+        font-size: 35px;
+        margin: 10px 0px 7px 0px;
+      }
+      .WHO1T2 {
+        font-size: 18px;
+      }
+      .Txt18{
+        font-size: 20px;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+      }
+      .Txt18::after {
+        height: 3px;
+      }
+      .Txt19{
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+      .DiscoveryBox {
+        margin-top: 0;
+      }
+      .BlogT1{
+        font-size: 17px;
+      }
+      .blogLink1{
+        margin-bottom: 15px;
+      }
+      .BlogSt2 .BlogT1{
+        font-size: 17px;
+        margin-top: 10px;
+      }
+      .Ctxt1 {
+        font-size: 20px;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        padding-left: 0;
+        position: relative;
+        text-align: center;
+      }
+      .Ctxt1::after {
+        content: "";
+width: 140px;
+height: 3px;
+background-color: #3F8BBC;
+position: absolute;
+bottom: 0;
+left: 50%;
+margin-left: -70px;
+top: auto;
+      }
+      .Ctxt2 {
+        line-height: 1.5;
+        margin-bottom: 15px;
+        text-align: center;
+      }
+      .contactBox2 .container {
+        padding: 0px 15px;
+        padding-bottom: 0px;
+      }
+      .ContactFromTp1T1{
+        font-size: 20px;
+        text-align: center;
+      }
+      .ContactFrom1 input, .ContactFrom1 textarea{
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px !important;
+      }
+      .ContactFrom1{
+        text-align: center;
+      }
+      .contactBox2{
+       
+      }
+      .AccordionQstion{
+        padding: 10px;
+        font-size: 15px;
+      }
+      .AccordionQstion::after {
+        top: 5px;
+      }
+      .AccordionItem.active .AccordionQstion::after {
+        top: 15px;
+      }
+      .Dt1{
+        font-size: 20px;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+      }
+      .Dt1::after{
+        height: 3px;
+      }
+      .Dt2{
+        line-height: 1.5;
+        margin-bottom: 15px;
+      }
+      .Dlink1 {
+        margin-bottom: 20px;
+        display: block;
+      }
+      .Dl1 {
+        margin: 10px 0px 10px 0px;
+        font-size: 15px;
+      }
+      .Dl3 {
+        font-size: 15px;
+        margin-top: 10px;
+      }
+      .Dl2 {
+        font-size: 16px;
+      }
+      .FotterT1 {
+        font-size: 16px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+      }
+      .GalleyBox .row{
+        align-items: center;
+        justify-content: center;
+      }
+      .GalleyBox .col-md-3{
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        margin-bottom: 15px;
+      }
+      .SocialBoxFlex {
+        justify-content: center;
+      }
+      .FotterT4 {
+        font-size: 18px;
+        margin: 10px 0px;
+        text-align: center;
+        margin-bottom: 15px;
+      }
+      .Newsletter form input{
+        padding: 10px;
+      }
+      .Newsletter form button{
+        height: 40px;
+      }
+      .Newsletter {
+        margin-bottom: 20px;
+      }
+}
