@@ -2178,7 +2178,7 @@ top: auto;
         padding-left: 15px;
       }
       .RowSt1 {
-        font-size: 18px;
+        font-size: 16px;
         margin-bottom: 5px;
       }
       .RowSt2 {
@@ -2248,5 +2248,32 @@ top: auto;
       }
       .BlogListing .col-md-4 {
         margin-bottom: 15px;
+      }
+      .SpBox1 .RowStCnt1 {
+        padding: 15px;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+        position: relative;
+      }
+      .OverT1{
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+      .OverItemBoxT1 {
+        font-size: 16px;
+        margin-bottom: 5px;
+      }
+      .OverItemBoxT2 {
+        font-size: 15px;
+      }
+      .OverItemBox {
+        margin-bottom: 15px;
+      }
+      .OverValuesContent {
+        padding-left: 40px;
+      }
+      .OverT1::after{
+        left: -43px;
       }
 }
