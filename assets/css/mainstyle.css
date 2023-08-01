@@ -1529,15 +1529,14 @@ margin-bottom: 15px;
     line-height: 1.8;
     margin-bottom: 25px;
     margin-top: 25px;
+    font-size: 18px;
 }
 .LatestTxt3{
     color: #3F8BBC;
     font-weight: 500;
+    font-size: 18px;
 }
-.latestBlogThumb{
-    height: 410px;
-    object-fit: cover;
-}
+
 .BlogListItemLink{
     display: block;
     color: #656565 !important;
@@ -1573,4 +1572,61 @@ margin-bottom: 15px;
   }
   .BlogListing .col-md-4{
     margin-bottom: 30px;
+  }
+  .spcBox2 .Txt15{
+    max-width: 100%;
+  }
+  .SpBox1{
+    margin-top: 30px;
+  }
+  .SpBox1 .RowStCnt1 {
+    padding: 25px;
+    width: 120%;
+    margin-left: -20%;
+    margin-top: 20%;
+    position: relative;
+  }
+  .OverValuesContent{
+    border-left: 3px solid #e4e4e4;
+    padding-left: 50px;
+  }
+  .OverT1{
+font-weight: 700;
+font-size: 30px;
+line-height: 1.5;
+position: relative;
+margin-bottom: 25px;
+position: relative;
+  }
+  .OverT1::after{
+    content: "";
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -52px;
+    background-color: #3F8BBC;
+  }
+  .OverItemBox{
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .OverItemBox::after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #3F8BBC;
+    position: absolute;
+    top: 7px;
+left: -25px;
+    background-color: #3F8BBC;
+    display: inline-block;
+  }
+  .OverItemBoxT1{
+    font-weight: 600;
+    font-size: 19px;
+    margin-bottom: 10px;
+  }
+  .OverItemBoxT2{
+    font-size: 17px;
   }
