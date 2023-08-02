@@ -1112,7 +1112,7 @@ main {
     line-height: 1.8;
     margin-top: 10px;
     display: -webkit-box;
-    -webkit-line-clamp: 6;
+    -webkit-line-clamp: 8;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
