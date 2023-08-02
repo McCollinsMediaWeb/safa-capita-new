@@ -1204,7 +1204,8 @@ main {
     height: 120px;
 }
 
-.ContactFrom1 input.SubmitButton {
+.ContactFrom1 input.SubmitButton ,
+.ContactFrom1 input.wpcf7-submit {
     background: #3f8bbc;
     color: #fff;
     width: 200px;
@@ -1739,6 +1740,12 @@ main {
 }
 .Mobile-content{
     display: none;
+}
+.intl-tel-input {
+    display: block !important;
+}
+.ContactFrom1 p{
+    margin-bottom: 0px !important;
 }
 @media only screen and (max-width: 900px) {
     .HdRightFlex ul {
