@@ -1116,7 +1116,9 @@ main {
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
-
+.MainBlogImg img{
+    height: auto;
+}
 .BlogSt2 {
     color: #fff !important;
     padding-bottom: 15px;
