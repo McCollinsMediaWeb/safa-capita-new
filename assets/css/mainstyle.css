@@ -1197,7 +1197,7 @@ main {
     border: 1px solid #cfcfcf !important;
     text-transform: capitalize;
     color: #656565;
-    margin-bottom: 15px;
+    
 }
 
 .ContactFrom1 textarea {
@@ -1744,9 +1744,7 @@ main {
 .intl-tel-input {
     display: block !important;
 }
-.ContactFrom1 p{
-    margin-bottom: 0px !important;
-}
+
 @media only screen and (max-width: 900px) {
     .HdRightFlex ul {
         display: none;
