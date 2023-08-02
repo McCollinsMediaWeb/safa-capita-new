@@ -1744,7 +1744,9 @@ main {
 .intl-tel-input {
     display: block !important;
 }
-
+.ContactFrom1 p{
+    margin-bottom: 10px !important;
+}
 @media only screen and (max-width: 900px) {
     .HdRightFlex ul {
         display: none;
