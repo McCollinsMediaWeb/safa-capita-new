@@ -482,7 +482,7 @@ footer .container {
     height: 120px;
 }
 
-.formElement button {
+.formElement input.wpcf7-submit {
     background-color: #3F8BBC;
     border: 0px solid #e4e4e4;
     border-radius: 30px;
@@ -491,6 +491,7 @@ footer .container {
     min-width: 140px;
     cursor: pointer;
     text-align: center;
+    width: 100%;
 }
 
 .width-100 {
