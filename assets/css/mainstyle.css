@@ -2276,4 +2276,28 @@ top: auto;
       .OverT1::after{
         left: -43px;
       }
+      .SideNav{
+        width: 100%;
+        padding: 20px;
+      }
+      .CloseClick{
+        top: 0;
+        right: 0;
+      }
+      .NavBox a {
+        font-size: 16px;
+        padding: 6px 0px;
+      }
+      .MenuLogo {
+        max-width: 110px;
+      }
+      .SideMenuDescription {
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+      }
+      .NavBox {
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+      }
 }
