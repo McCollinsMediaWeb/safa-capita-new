@@ -63,7 +63,8 @@ header {
     content: none !important;
 }
 
-.HdRightFlex ul li a:hover::after {
+.HdRightFlex ul li a:hover::after,
+.HdRightFlex ul li a.active::after {
     content: "";
     width: 100%;
     height: 2px;
