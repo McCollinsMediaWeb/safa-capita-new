@@ -1407,6 +1407,7 @@ overflow: hidden;
 .RowSt2 {
     line-height: 1.5;
     margin-bottom: 15px;
+    min-height: 85px;
 }
 
 .RowSt3 {
@@ -2229,6 +2230,7 @@ top: auto;
       }
       .RowSt2 {
         margin-bottom: 10px;
+        min-height: 20px;
       }
       .SrTxt1 {
         font-size: 20px;
