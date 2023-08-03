@@ -1582,6 +1582,10 @@ overflow: hidden;
     margin-bottom: 25px;
     margin-top: 25px;
     font-size: 18px;
+    display: -webkit-box;
+-webkit-line-clamp: 7;
+-webkit-box-orient: vertical;
+overflow: hidden;
 }
 
 .LatestTxt3 {
