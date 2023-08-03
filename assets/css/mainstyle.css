@@ -1934,8 +1934,8 @@ overflow: hidden;
     .valueItemFlexMiddle {
         padding: 15px;
         text-align: left;
-        flex: auto;
-        max-width: auto;
+        flex: 0 0 55%;
+        max-width: 55%;
     }
 
     .Txt11 {
