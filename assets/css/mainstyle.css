@@ -1899,6 +1899,7 @@ overflow: hidden;
     .valueItemFlex {
         margin-bottom: 15px;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .valueItemFlexLeft {
