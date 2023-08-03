@@ -2349,6 +2349,7 @@ top: auto;
       .Txt5 {
         height: auto;
         -webkit-line-clamp: 20;
+        min-height: 20px;
       }
       .VideoBox{
         margin-top: 0;
