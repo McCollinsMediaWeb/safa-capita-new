@@ -2354,4 +2354,7 @@ top: auto;
       .VideoBox{
         margin-top: 0;
       }
+      .AccordionItem {
+        border-radius: 10px;
+      }
 }
