@@ -9,7 +9,9 @@ header {
     text-transform: uppercase;
     transition: 0.4s;
 }
-
+.Dlink1 .wp-post-image{
+    height: auto !important;
+  }
 .HeaderContent {
     display: flex;
     justify-content: space-between;
