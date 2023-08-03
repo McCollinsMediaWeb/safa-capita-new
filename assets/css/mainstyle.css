@@ -661,6 +661,7 @@ main {
 
 .VideoBox {
     position: relative;
+    margin-top: 23px;
 }
 
 .fancybox-thumbs {
@@ -2345,5 +2346,7 @@ top: auto;
         height: auto;
         -webkit-line-clamp: 20;
       }
-      
+      .VideoBox{
+        margin-top: 0;
+      }
 }
