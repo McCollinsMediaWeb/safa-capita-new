@@ -1365,6 +1365,9 @@ overflow: hidden;
     margin-top: -5px;
 
 }
+.abtSt1 .RowSt2{
+    min-height: 10px;
+}
 
 .GrdStT1 {
     font-weight: 700;
