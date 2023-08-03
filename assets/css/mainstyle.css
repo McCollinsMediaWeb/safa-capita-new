@@ -652,6 +652,11 @@ main {
 .Txt5 {
     line-height: 1.5;
     margin-bottom: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 90px;
 }
 
 .VideoBox {
@@ -2335,6 +2340,10 @@ top: auto;
       .NavBox {
         padding-bottom: 15px;
         margin-bottom: 15px;
+      }
+      .Txt5 {
+        height: auto;
+        -webkit-line-clamp: 20;
       }
       
 }
