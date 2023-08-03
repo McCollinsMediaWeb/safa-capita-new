@@ -1755,7 +1755,13 @@ overflow: hidden;
 .ContactFrom1 p{
     margin-bottom: 10px !important;
 }
+.MainImage{
+    min-height: 80vh;
+  }
 @media only screen and (max-width: 900px) {
+    .rowSt1 .col-md-6{
+        margin-bottom: 20px !important;
+    }
     .HdRightFlex ul {
         display: none;
     }
@@ -2081,6 +2087,13 @@ left: 50%;
 margin-left: -70px;
 top: auto;
       }
+      .CopyRightBox{
+        margin-bottom: 70px;
+        text-align: center;
+      }
+      .CopyRightBoxUl{
+        margin-top: 10px;
+      }
       .Ctxt2 {
         line-height: 1.5;
         margin-bottom: 15px;
@@ -2098,6 +2111,7 @@ top: auto;
         padding: 10px;
         margin-bottom: 10px;
         border-radius: 10px !important;
+        margin-bottom: 0px !important;
       }
       .ContactFrom1{
         text-align: center;
@@ -2315,4 +2329,5 @@ top: auto;
         padding-bottom: 15px;
         margin-bottom: 15px;
       }
+      
 }
